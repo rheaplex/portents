@@ -1,0 +1,7 @@
+target/
+debug/
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+blocks.csv
