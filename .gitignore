@@ -5,3 +5,4 @@ target/
 Cargo.lock
 **/*.rs.bk
 blocks.csv
+\.DS_Store
