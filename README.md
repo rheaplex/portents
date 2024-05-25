@@ -28,3 +28,7 @@ Files
 ### block-lsbs-ordinals-matches.csv
 
 Details of matching block lsbs and ordinals.
+
+To get just the ordinal in integer notation, use:
+
+    tail -n +2 block-lsbs-ordinals-matches.csv | cut -d, -f4  | sort

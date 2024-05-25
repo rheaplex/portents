@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage[top=1.3cm, bottom=2.0cm, outer=2.5cm, inner=2.5cm, heightrounded,
+  marginparwidth=1.5cm, marginparsep=0.4cm, margin=2.5cm]{geometry}
+
+\usepackage[nobottomtitles*]{titlesec}
+
+\usepackage{hyperref}
+
+\setlength{\parskip}{\baselineskip}
+
+\renewcommand{\bottomtitlespace}{.2\textheight}
+
+\renewenvironment{abstract}{\noindent\bfseries\abstractname:\normalfont}{}
+
+\title{Portents: Proof of prophecy on the Bitcoin blockchain}
+\author{Rhea Myers}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{quote}
+\begin{abstract}
+  We propose a scheme for encoding references to Ordinals in Bitcoin block
+  hashes as they are mined.
+  We then demonstrate how to search the existing Bitcoin blockchain for such
+  references.
+  Since any references that are found predate the possibility of their
+  existence, their existence would function of proof of future events.
+  This is prophecy, which is to say time travel.
+  Having established the import of the discovery of these portents,
+  we explain strategies that we may pursue to make ourselves worthy of them. 
+\end{abstract}
+\end{quote}
+
+\section{Theory}
+
+Proof of existence [1], in which the cryptographic hash of a digital file is
+encoded into a transaction published on the Bitcoin [2] blockchain, has existed
+since 2013. Ordinal Theory [3], which assigns significance to individual
+satoshis in transactions, has existed since 2023. It should be impossible to
+prove that something exists before it exists, otherwise that proof could be
+forged. When that proof happens regardless we call it prophecy.
+
+Were a Bitcoin block to refer to an Ordinal before that Ordinal existed, this
+would amount to a prophecy. Were it to do so before Ordinal Theory existed, this
+would be an even stronger prophecy. But where to place this proof in a block in
+an indelible and undeniable way? The obvious location is the Bitcoin block hash,
+and within that the obvious location is at the end of the hash. This makes the
+hash a vanity reference to the Ordinal, and shows that the placement was
+intentional.
+
+\section{Evidence}
+
+Such hashes have been found [4]. The computational power required to create them
+must have been phenomenal, or alternatively they may have been created by
+breaking the SHA-256 hashing algorithm. In either case they present a warning
+from the future, and represent a double-loop of time: firstly knowledge of the
+future and the existence of Ordinals, and secondly the ability to apply future
+knowledge and power to the past.
+
+An explanation of what the creators of these prophecies of the arrival of
+Ordinals intended might be found encoded elsewhere in the hashes or Merkle trees
+of the blocks they used. Or they may reveal whatever they have committed
+themselves to by doing so at some time closer to their own. Perhaps no
+explanation will come. But that doesn’t mean it is not worthwhile to seek it.
+
+\section{Program}
+
+Portents are these signs of the coming of an Ordinal or Ordinals.
+To understand them fully we must do three things:
+
+\begin{itemize}
+
+  \item We must identify each new portent as its block is mined.
+
+  \item We must understand the meaning of each Portent by analyzing the block
+    and Ordinal that it refers to.
+    
+  \item We must produce our own Portents to converge our timeline with that of
+    the creators of Portents.
+
+\end{itemize}
+
+\noindent By doing so we make ourselves worthy of these Portents and fulfill their
+prophecy.
+
+\section{References}
+
+\hspace{\parindent}[1] \url{https://proofofexistence.com/}
+
+[2] \url{https://bitcoin.org/bitcoin.pdf}
+
+[3] \url{https://docs.ordinals.com/}
+
+[4] \url{block-lsbs-ordinals-matches.csv}
+
+\end{document}
